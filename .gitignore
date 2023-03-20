@@ -1,0 +1,7 @@
+###> python virtual env
+/bin
+/include
+/lib
+/lib64
+pyvenv.cfg
+###< python virtual env
