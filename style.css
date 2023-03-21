@@ -1,115 +1,121 @@
 /* CSS Document */
-
-      /* Allgemeine Stile */
-      html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: #5b89b0;
-      }
-      
-      /* Container-Boxen */
-      .logo-box {
-        width: 18.4%; /* Breite der Box */
-        height: 29.3%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        top: 2%; /* Abstand von oben */
-        left: 2.5%; /* Abstand von links */
-        text-align: center;
-      }
-
-      .title-box {
-        width: 59%; /* Breite der Box */
-        height: 23%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        top: 2%; /* Abstand von oben */
-        left: 22.2%; /* Abstand von links */
-        font-family: Arial;
-        color: #000000;
-        font-size: 6em; /* Ändert die Schriftgröße relativ zur Elterngröße */
-        font-weight: bold;
-        text-align: center;
-      }
-
-      .wikidata-box {
-        width: 75%; /* Breite der Box */
-        height: 5%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        top: 26.3%; /* Abstand von oben */
-        left: 22.2%; /* Abstand von links */
-        color: #000000;
-        text-align: center;
-        font-size: 2.55em; /* Ändert die Schriftgröße relativ zur Elterngröße */
-        font-weight: normal;
-      }
-
-      .abkuerzung-box {
-        width: 15%; /* Breite der Box */
-        height: 23%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        top: 2%; /* Abstand von oben */
-        right: 2.5%; /* Abstand von rechts */
-        font-family: Arial;
-        color: #000000;
-        font-size: 6em; /* Ändert die Schriftgröße relativ zur Elterngröße */
-        font-weight: bold;
-        text-align: center;
-      }
-
-      .qrcode-box {
-        width: 18.4%; /* Breite der Box */
-        height: 27%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        top: 33.8%; /* Abstand von oben */
-        left: 2.5%; /* Abstand von links */
-        text-align: center;
-      }
-
-      .mermaid-box {
-        width: 75.3%; /* Breite der Box */
-        height: 27%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        top: 33.8%; /* Abstand von oben */
-        right: 2.5%; /* Abstand von links */
-        text-align: center;
-      }
-
-      .description-box {
-        width: 95%; /* Breite der Box */
-        height: 26%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        bottom: 10.3%; /*Abstand von oben */
-        left: 2.5%; /* Abstand von links */
-        font-family: Arial;
-        color: #000000;
-        font-size: 2.55em; /* Ändert die Schriftgröße relativ zur Elterngröße */
-        text-align: left;
-        font-weight: normal;
-        
-      }
-        
-      .impressum-box {
-        width: 95%; /* Breite der Box */
-        height: 5%; /* Höhe der Box */
-        background-color: white; /* Hintergrundfarbe der Box */
-        position: absolute; /* Positionierung der Box */
-        bottom: 4%; /*Abstand von links */
-        left: 2.5%; /* Abstand von links */
-        font-family: Arial;
-        color: #000000;
-        font-size: 2.55em; /* Ändert die Schriftgröße relativ zur Elterngröße */
-        text-align: left;
-        font-weight: normal;
-      }
-
-					
-					
- 					
+/* Allgemeine Stile */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #5b89b0;
+}
+/* Container-Boxen */
+/* main container */
+div.container {
+  background-color: white;
+  font-family: sans-serif;
+}
+/* all boxes */
+div.box {
+  position: absolute;
+  background-color: white; /* Hintergrundfarbe der Box */
+}
+/* individual boxes */
+.logo-box {
+  width: 18.4%; /* Breite der Box */
+  height: 29.3%; /* Höhe der Box */
+  top: 2%; /* Abstand von oben */
+  left: 2.5%; /* Abstand von links */
+  text-align: center;
+}
+.title-box {
+  width: 59%; /* Breite der Box */
+  height: 23%; /* Höhe der Box */
+  top: 2%; /* Abstand von oben */
+  left: 22.2%; /* Abstand von links */
+  font-family: Arial;
+  color: #000000;
+  font-size: 6em; /* Ändert die Schriftgröße relativ zur Elterngröße */
+  font-weight: bold;
+  text-align: center;
+}
+.wikidata-box {
+  width: 75%; /* Breite der Box */
+  height: 5%; /* Höhe der Box */
+  top: 26.3%; /* Abstand von oben */
+  left: 22.2%; /* Abstand von links */
+  color: #000000;
+  text-align: center;
+  font-size: 2.55em; /* Ändert die Schriftgröße relativ zur Elterngröße */
+  font-weight: normal;
+}
+.abkuerzung-box {
+  width: 15%; /* Breite der Box */
+  height: 23%; /* Höhe der Box */
+  top: 2%; /* Abstand von oben */
+  right: 2.5%; /* Abstand von rechts */
+  font-family: Arial;
+  color: #000000;
+  font-size: 6em; /* Ändert die Schriftgröße relativ zur Elterngröße */
+  font-weight: bold;
+  text-align: center;
+}
+.qrcode-box {
+  width: 18.4%; /* Breite der Box */
+  height: 27%; /* Höhe der Box */
+  top: 33.8%; /* Abstand von oben */
+  left: 2.5%; /* Abstand von links */
+  text-align: center;
+}
+.mermaid-box {
+  width: 75.3%; /* Breite der Box */
+  height: 27%; /* Höhe der Box */
+  top: 33.8%; /* Abstand von oben */
+  right: 2.5%; /* Abstand von links */
+  text-align: center;
+}
+.description-box {
+  width: 95%; /* Breite der Box */
+  height: 26%; /* Höhe der Box */
+  bottom: 10.3%; /*Abstand von oben */
+  left: 2.5%; /* Abstand von links */
+  font-family: Arial;
+  color: #000000;
+  font-size: 2.55em; /* Ändert die Schriftgröße relativ zur Elterngröße */
+  text-align: left;
+  font-weight: normal;
+}
+.impressum-box {
+  width: 95%; /* Breite der Box */
+  height: 5%; /* Höhe der Box */
+  bottom: 4%; /*Abstand von links */
+  left: 2.5%; /* Abstand von links */
+  font-family: Arial;
+  color: #000000;
+  /*font-size: 2.55rem;  Ändert die Schriftgröße relativ zur Elterngröße */
+  font-size: 0.55rem; /* Ändert die Schriftgröße relativ zur Elterngröße */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.impressum-text {
+  flex: 1;
+  max-width: 50%;
+  font-size: 0.55rem; /* Ändert die Schriftgröße relativ zur Elterngröße */
+  overflow-wrap: break-word;
+}
+.repository-link {
+  flex: 1;
+  font-size: 1rem; /* Ändert die Schriftgröße relativ zur Elterngröße */
+  text-align: right;
+  margin-right: 10%; /* Platz zum Text lassen */
+}
+.cc-image img {
+  height: 100%;
+  max-width: 100%;
+}
+.cc-image {
+  flex: 1;
+  text-align: right;
+  height: 90%; /* 5% minus etwas Platz für margin */
+  max-width: auto;
+  margin-right: 1%; /* Platz zum Text lassen */
+}
