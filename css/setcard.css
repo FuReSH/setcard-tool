@@ -33,6 +33,7 @@ div.setcard div.footer {
   background-color: rgba(0, 0, 0, 0.4);
   min-height: 50px;
   max-height: 200px;
+  color: white;
 }
 div.setcard div.content,
 div.footer div.content {
