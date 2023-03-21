@@ -27,34 +27,47 @@ div.setcard div.header {
   height: 25px;
 }
 div.setcard div.footer {
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-/*   transparent black background*/
-  background-color: rgba(0, 0, 0, 0.4);
-  min-height: 50px;
   max-height: 200px;
   color: white;
 }
-div.setcard div.content,
-div.footer div.content {
-/* move all content to within the borders of the card
-/*  margin: 25px;*/
-/*  padding: 5px;*/
+div.footer > div {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+div.footer div.bottom {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+/*   transparent black background*/
+  height: 25px;
 }
 /* all boxes within the setcard */
 div.textbox {
   background-color: rgba(255, 255, 255, 0.4);
-/*  padding: 5px;*/
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+/* padding around rows and colums */
+div.setcard div.content .row {
+ margin-top: 7px;
+ margin-bottom: 7px;
+}
 .col, .col-1, .col-2, .col-3, .col-4,
 .col-5, .col-6, .col-7, .col-8 {
-  border: #4444A9 solid 5px;
-  border-collapse: true;
+  padding-right: 5px;
+  padding-left: 5px;
+/*  border: 5px solid #4444A9;*/
+/*  border-collapse: true;*/
 }
 
 /* images  */
 img {
   height: 100%;
   width: 100%;
+}
+
+/* content */
+.name {
+  font-size: 2rem;
 }
