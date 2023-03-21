@@ -1,0 +1,59 @@
+/* CSS Document */
+/* Allgemeine Stile */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Container-Boxen */
+/* main container */
+div.setcard {
+  background-color: #4444A9;
+  font-family: sans-serif;
+/* center the card: done by bootstrap */
+  /*margin-right: auto;
+  margin-left: auto;*/
+  padding: 0;
+  z-index: 10;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.setcard div.header {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+/*  background-color: rgba(0, 0, 0, 0.4);*/
+  height: 25px;
+}
+div.setcard div.footer {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+/*   transparent black background*/
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 50px;
+  max-height: 200px;
+}
+div.setcard div.content,
+div.footer div.content {
+/* move all content to within the borders of the card
+/*  margin: 25px;*/
+/*  padding: 5px;*/
+}
+/* all boxes within the setcard */
+div.textbox {
+  background-color: rgba(255, 255, 255, 0.4);
+/*  padding: 5px;*/
+}
+
+.col, .col-1, .col-2, .col-3, .col-4,
+.col-5, .col-6, .col-7, .col-8 {
+  border: #4444A9 solid 5px;
+  border-collapse: true;
+}
+
+/* images  */
+img {
+  height: 100%;
+  width: 100%;
+}
