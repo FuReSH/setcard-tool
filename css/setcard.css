@@ -19,8 +19,15 @@ html, body {
 }
 /* Container-Boxen */
 /* main container */
-div.setcard {
+/* colour by type class */
+.Q9143 {
   background-color: orange;
+}
+.Q7397 {
+  background-color: green;
+}
+div.setcard {
+/*  background-color: orange;*/
   font-family: HeptaSlab, sans-serif;
 /* center the card: done by bootstrap */
   /*margin-right: auto;
@@ -85,6 +92,9 @@ div.setcard div.content .row {
 img {
   height: 100%;
   width: 100%;
+}
+img.license {
+  height: 2rem;
 }
 
 /* content */
