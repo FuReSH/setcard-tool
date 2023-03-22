@@ -26,6 +26,12 @@ html, body {
 .Q7397 {
   background-color: green;
 }
+.Q235557 {
+  background-color: purple;
+}
+div.toolbox {
+  max-width: 1200px;
+}
 div.setcard {
 /*  background-color: orange;*/
   font-family: HeptaSlab, sans-serif;
@@ -89,6 +95,7 @@ div.setcard div.content .row {
 }
 
 /* images  */
+/* the ratio of width to height should not be changed */
 img {
   height: 100%;
   width: 100%;
@@ -97,7 +104,7 @@ img.license {
   height: 2rem;
 }
 
-/* content */
+/* font sizes content */
 .name {
   font-size: 3rem;
 }
