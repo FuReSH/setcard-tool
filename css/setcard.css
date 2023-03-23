@@ -105,7 +105,7 @@ div.setcard div.content .row {
 /* images  */
 /* the ratio of width to height should not be changed */
 img {
-  height: 100%;
+/*  height: 100%;*/
   width: 100%;
 }
 img.license {
