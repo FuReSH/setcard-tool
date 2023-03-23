@@ -94,6 +94,14 @@ div.setcard div.content .row {
 /*  border-collapse: true;*/
 }
 
+/* font sizes content */
+.name {
+  font-size: 3rem;
+}
+.accronym {
+  font-size: 4rem;
+}
+
 /* images  */
 /* the ratio of width to height should not be changed */
 img {
@@ -104,10 +112,6 @@ img.license {
   height: 2rem;
 }
 
-/* font sizes content */
-.name {
-  font-size: 3rem;
-}
-.accronym {
-  font-size: 4rem;
+img.diagram div {
+  font-family: inherit;
 }
