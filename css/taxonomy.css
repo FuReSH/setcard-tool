@@ -1,0 +1,28 @@
+.node {
+    fill: rgba(255, 255, 255, 0.8);
+}
+.node .label {
+    display: inline-block;
+    color: black;
+    font-family: HeptaSlab, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    white-space: normal;
+    overflow-wrap: normal;
+}
+.node.selected {
+    fill:black;
+}
+.node.selected .label {
+    color: white;
+    font-weight: 600;
+}
+.node.inactive {
+    fill: rgba(255, 255, 255, 0.4);
+}
+.node.inactive .label {
+    color: gray;
+}
+.edge {
+
+}

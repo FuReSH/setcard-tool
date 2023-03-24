@@ -3,6 +3,7 @@
   PUBLIC '-//W3C//DTD SVG 1.1//EN'
   'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
 <svg height="261px" version="1.1" viewBox="-0.5 -0.5 721 261" width="721px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- <link xmlns="http://www.w3.org/1999/xhtml" href="../../css/taxonomy.css" rel="stylesheet" type="text/css" /> -->
     <style type="text/css">
         .node {
             fill: rgba(255, 255, 255, 0.8);
@@ -10,7 +11,7 @@
         .node .label {
             display: inline-block;
             color: black;
-            font-family: Helvetica, sans-serif;
+            font-family: HeptaSlab, Helvetica, sans-serif;
             font-size: 24px;
             line-height: 1.2;
 /*            pointer-events: none;*/
@@ -22,6 +23,7 @@
         }
         .node.selected .label {
             color: white;
+            font-weight: 600;
         }
         .node.inactive {
             fill: rgba(255, 255, 255, 0.4);
